@@ -3,20 +3,15 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = [
   {
-    mode: "development",
-    devtool: "inline-source-map",
-    devServer: {
-      contentBase: path.join(__dirname, "dist"),
-      port: 3000,
-      compress: true
-    },
-    entry: './src/index.ts',
+    mode: "production",
+    devtool: "source-map",
+    entry: "./src/index.ts",
     output: {
       filename: 'app.bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
     resolve: {
-      extensions: [".ts", ".js", ".json"]
+      extensions: [".ts", ".js", ".json"],
     },
     module: {
       rules: [

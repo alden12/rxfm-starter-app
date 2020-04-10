@@ -1,4 +1,5 @@
 node_modules
 .vscode
-dist/index.js
 coverage
+package-lock.json
+/dist/*
