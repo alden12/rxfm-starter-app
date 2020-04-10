@@ -1,6 +1,6 @@
 # RxFM Starter App
 
-A project configured to use the [RxFM](https://github.com/alden12/rxfm) JavaScript framework.
+A project with all the configuration needed to get started with the [RxFM](https://github.com/alden12/rxfm) JavaScript framework.
 
 To get started (with git and node installed) open a terminal in the desired location and run:
 ```
