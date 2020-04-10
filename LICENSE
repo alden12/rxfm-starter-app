@@ -1,6 +1,9 @@
 MIT License
 
 Copyright (c) 2020 Alden Laslett
+Copyright for portions of this project are held by the original author of the
+repository https://github.com/javascriptru-old/rxjs-typescript-starter under
+ISC license. All other copyright for this project are held by Alden Laslett.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
